@@ -5,7 +5,7 @@ const portfolioData = {
     // Experience Timeline
     experience: [
         {
-            title: "Data Science Quality Analyst",
+            title: "Data Quality Analyst",
             company: "Notting Hill Genesis",
             location: "London, UK",
             period: "May 2025 - Present",
@@ -36,14 +36,7 @@ const portfolioData = {
             description: "Increased community retention by 23% through detailed churn analysis and Python-based statistical growth models. Grew community engagement to 50,000+ active users across platforms, boosting NFT sales. Created real-time dashboards for KPI tracking.",
             tags: ["Python", "Data Analysis", "Statistical Modeling", "Dashboards", "Community Analytics"]
         },
-        {
-            title: "Lead Data Analytics Coach",
-            company: "Codekago Interactive",
-            location: "Nigeria",
-            period: "Sept 2019 - Sept 2022",
-            description: "Developed and delivered comprehensive data analytics curriculum, workshops, and bootcamps. Trained students and professionals in Excel, SQL, Power BI, Python, and data visualization. Provided one-on-one mentoring and consulted with clients on data-driven solutions.",
-            tags: ["Teaching", "Curriculum Design", "Excel", "SQL", "Power BI", "Python", "Consulting"]
-        },
+
         {
             title: "Data Scientist",
             company: "National Space Research and Development Agency",
@@ -62,7 +55,7 @@ const portfolioData = {
             items: ["Python", "R", "Machine Learning", "NLP", "Statistical Analysis", "Predictive Modeling", "Deep Learning"]
         },
         {
-            category: "Data Engineering",
+            category: "Data Quality",
             icon: "⚙️",
             items: ["SQL", "PostgreSQL", "T-SQL", "ETL Pipelines", "Data Warehousing", "Data Quality", "Data Governance"]
         },
@@ -74,7 +67,7 @@ const portfolioData = {
         {
             category: "Cloud & Tools",
             icon: "☁️",
-            items: ["AWS", "Azure", "Oracle Cloud", "Git", "Docker", "Jupyter", "VS Code"]
+            items: ["Azure", "MSSQL", "Oracle Cloud", "Git", "Jupyter", "VS Code"]
         },
         {
             category: "Geospatial Tech",
@@ -138,62 +131,62 @@ const portfolioData = {
     publications: [
         {
             type: "Journal Article",
-            title: "Data on housing arrears management in the United Kingdom",
-            authors: "Alexander Agbu, Funlade Sunmola",
-            venue: "Data in Brief, Volume 48, June 2023, Elsevier",
+            title: "Software tool to store IoT device data onto a blockchain",
+            authors: "Alexander Agbu, Dr. Opeyemi Adamson Oloyede, Nicolas Lopez, et al",
+            venue: "Data in Brief, Volume 16, May 2023, Elsevier",
             year: "2023",
-            link: "https://www.sciencedirect.com/science/article/pii/S2352340923000227",
-            doi: "10.1016/j.dib.2023.108943"
+            link: "https://www.sciencedirect.com/science/article/pii/S2665963823000489",
+            doi: "10.1016/j.simpa.2023.100511"
         },
         {
             type: "Journal Article",
-            title: "A machine learning model for predicting rental arrears",
-            authors: "Alexander Agbu, Funlade Sunmola",
-            venue: "Data in Brief, Volume 49, August 2023, Elsevier",
+            title: "Upper-air meteorological dataset for Uyo, using radiosonde",
+            authors: "Alexander Agbu, Dr. Opeyemi Adamson Oloyede, Nicolas Lopez, Prof. Simeon Ozuomba, et al",
+            venue: "Software Impacts, Volume 46, February 2023, Elsevier",
             year: "2023",
-            link: "https://www.sciencedirect.com/science/article/pii/S2665963823000489",
-            doi: "10.1016/j.dib.2023.109289"
+            link: "https://www.sciencedirect.com/science/article/pii/S2352340923000227",
+            doi: "10.1016/j.dib.2023.108904"
         },
         {
             type: "Conference Paper",
             title: "Housing Arrears Prediction Using Machine Learning: A Case Study",
-            authors: "Alexander Agbu, Funlade Sunmola",
-            venue: "Journal of Basic and Applied Research International",
-            year: "2023",
+            authors: "Alexander Agbu, Dr. Opeyemi Adamson Oloyede, Anthony Ifeanyi Okenwa, Benita Chidinma Nnah"
+            venue: "International Journal of Basic and Applied Research ",
+            year: "2021",
             link: "https://www.gssrr.org/index.php/JournalOfBasicAndApplied/article/view/11915"
         },
         {
             type: "Journal Article",
-            title: "Machine Learning Approaches for Housing Arrears Management",
-            authors: "Alexander Agbu",
+            title: "Application And Performance Evaluation Of Artificial Immune System-Negative Selection Algorithm For Anomalies Detection In Distributed Sensor Networks",
+            authors: "Dr. Bliss Utibeabasi Stephen, Alexander Agbu, Ofonime Dominic Okon",
             venue: "Journal of Multidisciplinary Engineering Science Research (JMESR)",
             year: "2022",
-            link: "https://www.jmesr.co.uk/wp-content/uploads/2022/11/JMESRN42350043.pdf"
+            link: "http://www.jmesr.co.uk/wp-content/uploads/2022/11/JMESRN42350043.pdf"
         }
     ],
 
     // Blog Posts (placeholder - update with actual blog posts)
     blog: [
         {
-            title: "From Python to SQL: A Journey Worth Taking",
-            date: "March 2025",
+            title: "Why SQL Became My Go-To Tool for Data Quality Work",
+            date: "Feb 2026",
             category: "Career Insights",
             excerpt: "Reflecting on transitioning from Python-heavy workflows to SQL-intensive projects and discovering the unique strengths of each tool in data work.",
-            link: "#"
+            link: "https://medium.com/@alexanderagbu/why-sql-became-my-go-to-tool-for-data-quality-work-906bfb203d39"
         },
         {
-            title: "Data Governance: Framing Data Problems as Trust Problems",
-            date: "February 2025",
-            category: "Data Governance",
-            excerpt: "Why treating data quality issues as trust issues transforms how organizations approach data governance and master data management.",
-            link: "#"
+            title: "My thoughts on Data Science",
+            date: "Aug 2024",
+            category: "Data Science",
+            excerpt: "Data science is more than just crunching numbers — it’s the art of turning raw data into valuable insights that drive real-world decisions",
+            link: "https://medium.com/@alexanderagbu/my-thoughts-on-data-science-d1cf75f54c9e"
         },
         {
-            title: "Building ML Models That Actually Get Used",
-            date: "January 2025",
-            category: "Machine Learning",
-            excerpt: "Lessons learned from deploying a tenant arrears prediction model in production: technical excellence meets organizational change management.",
-            link: "#"
+            title: "Becoming Better and helping Someone Along the way",
+            date: "January 2024",
+            category: "Personal Development",
+            excerpt: "I have embarked on a journey to enhance my skills in my chosen field. I’ve realized that I often neglect to document my learning process and skills development.",
+            link: "https://medium.com/@alexanderagbu/becoming-better-and-helping-someone-along-the-way-b37f4352f02b"
         }
     ]
 };
