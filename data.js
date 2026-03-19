@@ -150,7 +150,7 @@ const portfolioData = {
         {
             type: "Conference Paper",
             title: "Housing Arrears Prediction Using Machine Learning: A Case Study",
-            authors: "Alexander Agbu, Dr. Opeyemi Adamson Oloyede, Anthony Ifeanyi Okenwa, Benita Chidinma Nnah"
+            authors: "Alexander Agbu, Dr. Opeyemi Adamson Oloyede, Anthony Ifeanyi Okenwa, Benita Chidinma Nnah",
             venue: "International Journal of Basic and Applied Research ",
             year: "2021",
             link: "https://www.gssrr.org/index.php/JournalOfBasicAndApplied/article/view/11915"
